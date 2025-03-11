@@ -4,13 +4,13 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'g++ -o YOUR_SRN-1 main/hello.cpp'
+                sh 'g++ -o PES1UG22AM052-1 newfile.cpp'
             }
         }
 
         stage('Test') {
             steps {
-                sh './YOUR_SRN-1'  // Run compiled C++ file
+                sh './PES1UG22AM052-1'  // Run compiled C++ file
             }
         }
 
